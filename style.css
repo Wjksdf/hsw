@@ -1,0 +1,151 @@
+
+     * {
+        font-family: 'Noto Sans KR', sans-serif;
+        list-style:none;
+        text-decoration:none;
+        border-collapse:collapse;
+        margin: 0px;
+        padding: 0px;
+        color: black;
+     }
+
+     h1 {
+      font-size: 48px;
+      font-weight: 100px;
+     }
+
+     .contents1_bold{
+      font-size: 18px;
+      font-weight: bold;
+     }
+
+     .contents1{
+      font-size: 20px;
+      font-weight: lighter;
+     }
+
+     .intro_bg{
+        background-image: url("https://source.unsplash.com/1600x900/?travel"); /*unsplash API 사용*/
+        width: cover;
+        height: 718px;
+     }
+
+     .header{ /*header 사용>
+        display: flex; /*flex 사용*/
+        width: 1280px;
+        margin: auto;
+        height: 86px;
+     }
+     .searchArea {
+         width: 300px;
+         height: 40px;
+         background: rgba(0,0,0,0);
+         border-radius: 5px;
+         margin-top:24px;
+     }
+
+     .searchArea > form > input{
+         border:none;
+         width: 250px;
+         height: 40px;
+         background: rgba(0,0,0,0);
+         color: #000;
+         padding-left: 10px;       
+     
+     
+      }
+
+      .searchArea > form > span{
+         width: 50px;
+         color:#000;
+         font-weight: bold;
+         cursor: pointer;
+      }
+
+
+
+     .nav { /*navigation 사용*/
+      display: flex; /*flex 사용*/
+      justify-content:flex-end;
+      line-height: 86px;
+      width:calc(1280px- 300px);
+    
+     }
+
+     .nav > li{
+        margin-left: 84px;
+     }
+   
+     .nav > li > a{
+      color: #fff;
+     }
+
+     .intro_text {
+       width: 100%;
+       margin:231px auto;
+       text-align: center;
+     }
+
+     .intro_text > h1,
+   .intro_text > h{
+      color: #fff;
+   }
+   
+   .amount {
+      position:relative;
+      top: -66px;
+      display:flex; /*flex 사용*/
+      width: 1280px;
+      background: #fff;
+      box-shadow: 5px 10px 10px rgba(0,0,0,0.5);
+      margin: auto;
+   }
+
+   .amount > li {
+      flex: 1;
+      height: 132px;
+     
+   }
+
+   .amount > li >div {
+      text-align: center;
+      height: 57px;
+      margin-top: 37px;
+      border-right:1px solid gray;
+   }
+
+.amount > li > div:not(:last-child){
+   border-right:1px solid gray;
+
+}
+
+.result{
+   font-size: 24px;
+}
+
+.nav {
+   list-style: none;
+   padding: 0;
+   margin: 0px;
+   display: flex; /*flex 사용*/
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .nav-btn {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #eaeaea;
+   color: #333;
+   text-decoration: none;
+   margin-right: 10px;
+   border: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .nav-btn:hover {
+   background-color: #333;
+   color: #fff;
+   margin-top: 20px;
+ }
